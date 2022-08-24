@@ -6,7 +6,6 @@ Console.Write("Введи M: ");
 int M = Convert.ToInt16(Console.ReadLine());
 Console.Write("Введи N: ");
 int N = Convert.ToInt16(Console.ReadLine());
-Console.WriteLine($"N={N}, M={M}");
 if (N>M)
 for (int i = M; i <= N; i++)
     Console.Write($" {i} ");
